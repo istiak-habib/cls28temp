@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-28(Template).</title>
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+
+    <script src="js/html5shiv.min.js"></script>
+
+</head>
+<body>
+
+    <!-- header -->
+
+    <nav class="main-header">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-6">
+                    <img src="img/logo.jpg" class="logo" alt="">
+                </div>
+                
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-6">
+
+                    <div class="header-menu position-relative">
+                        <input class="h-m-check" type="checkbox">
+                        <span class="h-m-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                        <ul class="main-menu float-end">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#"> Blog <i class="fa-solid fa-caret-down"></i> </a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Time Planner App</a></li>
+                                    <li><a href="#">Health Tracker App</a></li>
+                                    <li><a href="#">Width Tracker App</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#"> Pages <i class="fa-solid fa-caret-down"></i> </a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Headers</a></li>
+                                    <li><a href="#">Features</a></li>
+                                    <li><a href="#">Pricing Table & Article</a></li>
+                                    <li><a href="#">Team & Testimonails</a></li>
+                                    <li><a href="#">Gallery & Video</a></li>
+                                    <li><a href="#">Forms & Maps & Footers</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+    
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner -->
+
+    <section class="banner main-bg">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 col-7">
+                    <div class="banner-text">
+
+                        <h5 class="text-muted mb-4"> This is me </h5>
+                        <h1 class="mb-4"> Philip Gilbert </h1>
+                        <p class="mb-5"> You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing scrooge some different futures. </p>
+                        <a href="#" class="btn"> <b> Discover Now </b> </a>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5">
+                    <div class="banner-pic">
+
+                        <img src="img/hero-img.jpg" alt="">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+
+    <section class="about py-lg-5 py-md-5 py-sm-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="about-pic mt-sm-4">
+                        <img src="img/about-img.jpg" class="img-thumbnail" alt="...">
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="about-text pt-xl-5 pt-sm-2">
+
+                        <h5 class="text-muted mb-xl-4 mb-sm-2"> About me </h5>
+                        <h1 class="mb-xl-4 mb-sm-2"> Personal Details </h1>
+                        <p class="mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2"> You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing scrooge some different futures.You will begin to realise why this exercise is called the Dickens Pattern with reference to the ghost showing scrooge some different futures. </p>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="at-button btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <b>View Details</b>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">About Myself</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>This is some placeholder content to show the scrolling behavior for modals. We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. When content becomes longer than the prefedined max-height of modal, content will be cropped and scrollable within the modal.This is some placeholder content to show the scrolling behavior for modals. We use repeated line breaks to demonstrate how content can exceed minimum inner height, thereby showing inner scrolling. When content becomes longer than the prefedined max-height of modal, content will be cropped and scrollable within the modal.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- number-counter -->
+
+    <section class="number-counter">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div class="n-c-item text-center">
+                        <p class="n-c-head h2">100+</p>
+                        <p class="n-c-text">Happy Clients</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div class="n-c-item text-center">
+                        <p class="n-c-head h2">50+</p>
+                        <p class="n-c-text">Health Programs</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div class="n-c-item text-center">
+                        <p class="n-c-head h2">300+</p>
+                        <p class="n-c-text">Projects Completed</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                    <div class="n-c-item text-center">
+                        <p class="n-c-head h2">80+</p>
+                        <p class="n-c-text">Health Programs</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- economy -->
+    
+    <section class="economy py-lg-5 py-md-4 py-sm-4 main-bg text-center">
+        <div class="container">
+            <div class="col-xl-12 eco mb-5">
+                <h2 class="mb-4"> Start Using Out App Today </h2>
+                <p> Being active is important to our health, but how much or what kind of activity do you need? </p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="economy-card">
+                        <div class="card border-0 shadow">
+                            <div class="card-body">
+    
+                                <div class="num-card card-title">01</div>
+                                <div class="card-title"> <h4>Economy</h4> </div>
+                                <div class="card-subtitle"> <p>For the Inviduals</p> </div>
+                                <div class="class-list mt-xl-5 mt-lg-5 mt-md-4 mt-sm-3 text-muted">
+                                    <h6 class="mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2">Secure Online Transfer</h6>
+                                    <h6 class="mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2">Unlimited Style for Interface</h6>
+                                    <h6 class="mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2">Reliable Customer Service</h6>
+                                    <a href="#" class="btn btn-outline-primary shadow-lg py-lg-2 py-md-1 py-sm-0 px-lg-4 px-md-3 px-sm-2 mb-xl-5 mb-lg-4 mb-md-3"> <b>Buy Now</b> </a>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="economy-card">
+                        <div class="card border-0 shadow">
+                            <div class="card-body">
+    
+                                <div class="num-card card-title">02</div>
+                                <div class="card-title"> <h4>Economy</h4> </div>
+                                <div class="card-subtitle"> <p>For the Inviduals</p> </div>
+                                <div class="class-list mt-xl-5 mt-lg-5 mt-md-4 mt-sm-3 text-muted">
+                                    <h6 class="mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2">Secure Online Transfer</h6>
+                                    <h6 class="mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2">Unlimited Style for Interface</h6>
+                                    <h6 class="mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2">Reliable Customer Service</h6>
+                                    <a href="#" class="btn btn-outline-primary shadow-lg py-lg-2 py-md-1 py-sm-0 px-lg-4 px-md-3 px-sm-2 mb-xl-5 mb-lg-4 mb-md-3"> <b>Buy Now</b> </a>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
+                    <div class="economy-card">
+                        <div class="card border-0 shadow">
+                            <div class="card-body">
+    
+                                <div class="num-card card-title">03</div>
+                                <div class="card-title"> <h4>Economy</h4> </div>
+                                <div class="card-subtitle"> <p>For the Inviduals</p> </div>
+                                <div class="class-list mt-xl-5 mt-lg-5 mt-md-4 mt-sm-3 text-muted">
+                                    <h6 class="mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2">Secure Online Transfer</h6>
+                                    <h6 class="mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2">Unlimited Style for Interface</h6>
+                                    <h6 class="mb-xl-5 mb-lg-4 mb-md-3 mb-sm-2">Reliable Customer Service</h6>
+                                    <a href="#" class="btn btn-outline-primary shadow-lg py-lg-2 py-md-1 py-sm-0 px-lg-4 px-md-3 px-sm-2 mb-xl-5 mb-lg-4 mb-md-3"> <b>Buy Now</b> </a>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- service-card -->
+
+    <section class="service-section py-3">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-xl-3 col-lg-3 col-6">
+                    <div class="service-card py-xl-5 py-md-4 py-sm-2">
+
+                        <div class="card">
+                            <img class="rounded" src="img/face1.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3">Jason Doe</h3>
+                                <h5 class="card-subtitle mb-3">Programmer</h5>
+                                <p class="card-text lead mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a class="btn shadow btn-outline-secondary px-3 py-2 mb-3 border-0" href="#"> <b>Website</b> </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-6">
+                    <div class="service-card py-xl-5 py-md-4 py-sm-2">
+
+                        <div class="card">
+                            <img class="rounded" src="img/face1.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3">Jason Doe</h3>
+                                <h5 class="card-subtitle mb-3">Programmer</h5>
+                                <p class="card-text lead mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a class="btn shadow btn-outline-secondary px-3 py-2 mb-3 border-0" href="#"> <b>Website</b> </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-6">
+                    <div class="service-card py-xl-5 py-md-4 py-sm-2">
+
+                        <div class="card">
+                            <img class="rounded" src="img/face1.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3">Jason Doe</h3>
+                                <h5 class="card-subtitle mb-3">Programmer</h5>
+                                <p class="card-text lead mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a class="btn shadow btn-outline-secondary px-3 py-2 mb-3 border-0" href="#"> <b>Website</b> </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-6">
+                    <div class="service-card py-xl-5 py-md-4 py-sm-2">
+
+                        <div class="card">
+                            <img class="rounded" src="img/face1.jpg" alt="">
+                            <div class="card-body text-center">
+                                <h3 class="card-title mb-3">Jason Doe</h3>
+                                <h5 class="card-subtitle mb-3">Programmer</h5>
+                                <p class="card-text lead mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <a class="btn shadow btn-outline-secondary px-3 py-2 mb-3 border-0" href="#"> <b>Website</b> </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- contact-section -->
+
+    <section class="contact-section py-5 main-bg">
+        <div class="container">
+            <div class="row">
+
+                <div class="cs-header text-center">
+                    <h5 class="lead mb-xl-4 mb-lg-3 mb-sm-2 mt-xl-5 mt-lg-4 mt-sm-0">We need to know your opinion</h5>
+                    <h1 class="mb-5">Write to us and we will contact you</h1>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <form action="" class="cs-form text-center my-xl-5 my-lg-4">
+                        <h2>Send us a Message</h2>
+    
+                        <div class="row">
+                            
+                            <div class="col-xl-12 col-12">
+                                <input type="email" class="csf-email form-control py-2 mt-xl-5 mt-md-4 mt-sm-3" placeholder="E-mail-Address">
+                            </div>
+    
+                            <div class="col-xl-6 col-6">
+                                <input type="text" class="csf-email form-control mt-lg-4 mt-md-3 mt-sm-2 py-2" placeholder="Name">
+                            </div>
+    
+                            <div class="col-xl-6 col-6">
+                                <input type="number" class="csf-email form-control mt-lg-4 mt-md-3 mt-sm-2 py-2" placeholder="Number">
+                            </div>
+    
+                            <div class="col-xl-12 col-12">
+                                <textarea name="" id="" cols="30" rows="4" class="csf-email csf-email-text form-control mt-lg-4 mt-md-3 mt-sm-2 py-xl-3 py-lg-2" placeholder="Message"></textarea>
+                            </div>
+    
+                            <div class="col-xl-12 text-center">
+                                <a href="#" class="csf-button btn mt-lg-5 mt-md-4 mt-sm-3 py-xl-3 py-lg-2 px-xl-5 px-lg-4"> Contact Us </a>
+                            </div>
+    
+                        </div>
+    
+                    </form>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="cs-text">
+
+                        <h3 class="mb-4"> Get in touch </h3>
+
+                        <h5 class="mb-4">Phone Number: +000 000 000 00</h5>
+                        <h5 class="mb-4">Email: +000 000 000 00</h5>
+                        <h5>Address: Dinajpur</h5>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer text-center bg-dark text-light py-xl-4 py-md-3 py-sm-2">
+        <div class="container">
+            <div class="col-xl-12">
+
+                <p class="mb-0">Copyright © 2022 Designed by LFWF.All Right Reserved.</p>
+
+            </div>
+        </div>
+    </footer>
+    
+    
+
+
+
+    <script src="./js/bootstrap.min.js"></script>
+
+</body>
+</html>

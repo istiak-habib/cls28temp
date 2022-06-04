@@ -1,0 +1,526 @@
+
+/* 1200px */
+
+@media (max-width: 1200px) {
+    .banner-text {
+        margin-top: 100px;
+    }
+    .banner-text h1 {
+        font-size: 35px;
+    }
+    .banner-text p {
+        width: 490px;
+        font-size: 13px;
+    }
+    .banner-text a b {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+    .about-text h1 {
+        font-size: 32px;
+    }
+    .about-text p {
+        font-size: 14px;
+    }
+    .number-counter {
+        padding: 40px 0px;
+    }
+    .n-c-head {
+        font-size: 35px;
+    }
+    .n-c-text {
+        font-size: 18px;
+    }
+    .num-card {
+        padding: 25px 30px;
+        font-size: 32px;
+    }
+    .service-card .card img {
+        width: 80px;
+        margin-top: -40px;
+    }
+    .card-title {
+        font-size: 23px;
+    }
+    .card-subtitle {
+        font-size: 15px;
+    }
+    .service-card .card .card-body p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .service-card {
+        margin-top: 80px;
+    }
+    .cs-header h1 {
+        font-size: 45px;
+    }
+    .cs-form {
+        padding: 30px;
+    }
+    .csf-email-text {
+        height: 120px;
+        padding: 10px;
+    }
+    .footer p {
+        font-size: 17px;
+    }
+}
+
+/* 992px */
+
+@media (max-width: 992px) {
+    .logo {
+        width: 70px;
+    }
+    .main-menu li {
+        margin-top: 10px;
+        padding-right: 10px;
+    }
+    .main-menu li a {
+        font-size: 15px;
+    }
+    .banner {
+        padding-top: 60px;
+    }
+    .banner-text {
+        margin-top: 50px;
+    }
+    .banner-text h1 {
+        font-size: 28px;
+    }
+    .banner-text p {
+        width: 400px;
+        font-size: 10px;
+    }
+    .banner-text a b {
+        font-size: 14px;
+    }
+    .about-text h5 {
+        font-size: 18px;
+    }
+    .about-text h1 {
+        font-size: 25px;
+    }
+    .about-text p {
+        font-size: 12px;
+    }
+    .at-button.btn {
+        font-size: 12px;
+    }
+    .number-counter {
+        padding: 20px 0px;
+    }
+    .n-c-head {
+        font-size: 30px;
+    }
+    .n-c-text {
+        font-size: 14px;
+    }
+    .economy p {
+        font-size: 12px;
+    }
+    .card-subtitle p {
+        font-size: 15px;
+    }
+    .class-list h6 {
+        font-size: 12px;
+    }
+    .service-card .card img {
+        width: 80px;
+        margin-top: -40px;
+        margin-left: 130px;
+        border-radius: 50% !important;
+    }
+    .cs-header h5 {
+        font-size: 20px;
+    }
+    .cs-header h1 {
+        font-size: 30px;
+    }
+    .cs-form {
+        padding: 20px;
+    }
+    .cs-form h2 {
+        font-size: 22px;
+    }
+    .csf-email {
+        font-size: 14px;
+    }
+    .csf-button {
+        font-size: 15px;
+    }
+    .cs-text {
+        margin-top: 120px;
+    }
+    .cs-text h5 {
+        font-size: 18px;
+    }
+}
+
+/* 768px */
+
+@media (max-width: 768px) {
+    .logo {
+        width: 50px;
+    }
+    .main-menu {
+        padding-left: 0px;
+    }
+    .main-menu li {
+        margin-top: 3px;
+        padding-right: 5px;
+    }
+    .main-menu li a {
+        font-size: 12px;
+    }
+    .dropdown {
+        position: absolute;
+        top: 40px;
+        left: -15px;
+        width: 150px;
+    }
+    .dropdown li {
+        padding: 4px 10px;
+    }
+    .banner-text {
+        margin-top: 15px;
+    }
+    .banner-text h5 {
+        font-size: 15px;
+    }
+    .banner-text h1 {
+        font-size: 22px;
+    }
+    .banner-text p {
+        width: 275px;
+    }
+    .banner-text a b {
+        font-size: 10px;
+        padding: 8px 10px;
+    }
+    .about-text p {
+        font-size: 10px;
+    }
+    .at-button.btn {
+        font-size: 10px;
+    }
+    .n-c-head {
+        font-size: 25px;
+    }
+    .n-c-text {
+        font-size: 11px;
+    }
+    .economy h2 {
+        font-size: 22px;
+    }
+    .economy p {
+        font-size: 10px;
+    }
+    .num-card {
+        padding: 15px 19px;
+        font-size: 18px;
+    }
+    .card-title h4 {
+        font-size: 15px;
+    }
+    .class-list h6 {
+        font-size: 8px;
+    }
+    .class-list a b {
+        font-size: 11px;
+    }
+    .service-card {
+        margin-top: 50px;
+    }
+    .service-card .card img {
+        width: 70px;
+        margin-top: -40px;
+        margin-left: 85px;
+        border-radius: 50% !important;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .card-subtitle {
+        font-size: 12px;
+    }
+    .service-card .card .card-body p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .card-body a b {
+        font-size: 12px;
+    }
+    .cs-header h5 {
+        font-size: 16px;
+    }
+    .cs-header h1 {
+        font-size: 24px;
+    }
+    .cs-form {
+        padding: 10px;
+    }
+    .cs-form h2 {
+        font-size: 16px;
+    }
+    .csf-email {
+        font-size: 10px;
+    }
+    .csf-button {
+        font-size: 10px;
+    }
+    .cs-text {
+        margin-top: 60px;
+    }
+    .cs-text h3 {
+        font-size: 22px;
+    }
+    .cs-text h5 {
+        font-size: 12px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+/* 576px */
+
+@media (max-width: 576px) {
+    .h-m-check {
+        display: inherit;
+        position: absolute;
+        top: 11px;
+        right: 4px;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 999;
+    }
+    .h-m-icon {
+        display: inherit;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        font-size: 25px;
+    }
+    .main-menu {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .header-menu .h-m-check:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .main-menu li {
+        margin-top: 3px;
+        padding-right: 5px;
+        display: block;
+        background-color: #fff !important;
+        padding: 2px 5px;
+    }
+    .main-menu {
+        position: absolute;
+        right: 0px;
+        top: 40px;
+    }
+    .dropdown {
+        position: absolute;
+        top: -90px;
+        left: -155px;
+        width: 150px;
+    }
+    .banner-text p {
+        width: 250px;
+        font-size: 9px;
+    }
+    .about {
+        padding: 30px 0px;
+    }
+    .about-pic {
+        margin-top: 25px;
+    }
+    .about-text p {
+        font-size: 9px;
+    }
+    .number-counter {
+        padding: 10px 0px;
+    }
+    .n-c-head {
+        font-size: 20px;
+    }
+    .n-c-text {
+        font-size: 8px;
+        margin-bottom: 0px;
+    }
+    .economy {
+        padding: 20px 0px;
+    }
+    .contact-section {
+        padding: 20px 0px !important;
+    }
+    .cs-header h1 {
+        font-size: 24px;
+        margin-bottom: 20px !important;
+    }
+    .cs-form {
+        padding: 30px;
+    }
+    .csf-email {
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+    .cs-form h2 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .csf-button {
+        font-size: 16px;
+    }
+    .cs-text {
+        margin-top: 30px;
+        text-align: center !important;
+    }
+    .cs-text h3 {
+        margin-bottom: 15px !important;
+    }
+    .cs-text h5 {
+        margin-bottom: 8px !important;
+    }
+    .footer {
+        padding: 10px 0px;
+    }
+    .footer p {
+        font-size: 10px;
+    }
+    .class-list h6 {
+        font-size: 6px;
+    }
+    .card-body a {
+        padding: 0px 5px !important;
+    }
+    .card-body a b {
+        font-size: 10px;
+    }
+    .economy p {
+        font-size: 8px;
+    }
+}
+
+/* 420px */
+
+@media (max-width: 420px) {
+    .banner-text h5 {
+        font-size: 13px;
+        margin-bottom: 10px !important;
+        margin-top: 30px;
+    }
+    .banner-text h1 {
+        font-size: 19px;
+        margin-bottom: 10px !important;
+    }
+    .banner-text p {
+        width: 180px;
+        font-size: 7px;
+        margin-bottom: 15px !important;
+    }
+    .banner-text a b {
+        font-size: 8px;
+        padding: 5px 7px;
+    }
+    .about-text h5 {
+        font-size: 13px;
+    }
+    .about-text h1 {
+        font-size: 15px;
+    }
+    .about-text p {
+        font-size: 8px;
+    }
+    .at-button.btn {
+        font-size: 8px;
+        padding: 3px 5px !important;
+    }
+    .n-c-head {
+        font-size: 15px;
+        margin-bottom: 0px !important;
+    }
+    .n-c-text {
+        font-size: 5px;
+        margin-bottom: 0px;
+    }
+    .eco {
+        margin-bottom: 0px !important;
+    }
+    .economy h2 {
+        font-size: 13px;
+        margin-bottom: 5px !important;
+    }
+    .economy p {
+        font-size: 5px;
+    }
+    .card-body {
+        padding: 5px !important;
+    }
+    .num-card {
+        padding: 7px 10px;
+        font-size: 18px;
+    }
+    .card-title {
+        font-size: 15px;
+    }
+    .card-title h4 {
+        font-size: 10px;
+    }
+    .economy p {
+        font-size: 5px;
+        margin-bottom: 8px !important;
+    }
+    .class-list h6 {
+        font-size: 5px;
+        margin-bottom: 5px !important;
+    }
+    .card-body a b {
+        font-size: 6px;
+    }
+    .card-body a {
+        padding: 0px 5px !important;
+        height: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 42px;
+        margin: auto;
+    }
+    .service-card .card img {
+        width: 60px;
+        margin-top: -35px;
+        margin-left: 62px;
+        border-radius: 50% !important;
+        margin-bottom: 0px !important;
+    }
+    .card-title {
+        font-size: 13px;
+        margin-bottom: 5px !important;
+    }
+    .card-subtitle {
+        font-size: 7px;
+        margin-bottom: 10px !important;
+    }
+    .service-card .card .card-body p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .cs-header h5 {
+        font-size: 11px;
+    }
+    .cs-header h1 {
+        font-size: 14px;
+        margin-bottom: 15px !important;
+    }
+    .cs-form h2 {
+        font-size: 18px;
+    }
+}
+

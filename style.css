@@ -1,0 +1,263 @@
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.main-bg{
+    background-color: #f9f9ff;
+}
+
+/* header */
+
+.h-m-check {
+	display: none;
+}
+.h-m-icon {
+	display: none;
+}
+
+.main-header {
+    padding: 10px 0px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+}
+
+.head {
+    font-size: 30px;
+    margin-bottom: 0px;
+    transition: .2s;
+}
+
+.head:hover{
+    color: rgb(196, 196, 196);
+}
+
+.main-menu {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-top: 15px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+    font-size: 18px;
+    transition: .5s;
+}
+
+.main-menu li:hover>a{
+    color: rgb(0, 0, 0);
+}
+
+/* dropdown */
+
+.dropdown {
+    position: absolute;
+    top: 55px;
+    left: -15px;
+    padding-left: 0px;
+    width: 250px;
+    background-color: white;
+    display: grid;
+
+    transition: .4s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+}
+
+.dropdown li {
+    border-bottom: 1px solid #ddd;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.main-menu li:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* banner */
+
+.banner{
+    padding-top: 120px;
+}
+
+.banner-text{
+    margin-top: 170px;
+}
+
+.banner-text p{
+    width: 650px;
+}
+
+.banner-text a b{
+    color: #fff;
+    background-color: #8492ff;
+    font-size: 20px;
+    padding: 12px 20px;
+    border: 2px solid #8492ff;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+.banner-text a b:hover{
+    color: #8492ff;
+    background-color: #fff;
+    border: 2px solid #8492ff;
+    box-shadow: 0px 0px 40px 0px rgba(132, 146, 255, .7);
+}
+
+/* about */
+
+.at-button{
+    color: #fff;
+    background-color: #8492ff;
+    border: 2px solid #8492ff;
+    transition: .4s;
+}
+
+.at-button:hover{
+    color: #8492ff;
+    background-color: #fff;
+    border: 2px solid #8492ff;
+}
+
+/* number-counter */
+
+.number-counter{
+    padding: 80px 0px;
+    background-color: #8492ff;
+    color: #fff;
+}
+
+.n-c-head {
+    font-size: 50px;
+}
+
+.n-c-text {
+    font-size: 20px;
+}
+
+/* economy */
+
+.num-card {
+    display: inline-block;
+    padding: 35px 42px;
+    background-color: #f9f9ff;
+    border-radius: 50%;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.class-list h6 {
+    font-size: 18px;
+}
+
+/* service-card */
+
+.service-section h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.service-section p {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.service-card {
+    margin-top: 100px;
+}
+
+.service-card .card {
+    border: none;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .1);
+}
+
+.service-card .card .card-body p {
+    font-size: 18px;
+}
+
+.service-card .card img {
+    width: 120px;
+    margin-bottom: 10px;
+    margin-top: -70px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 20px 0px rgb(98 120 223 / 50%);
+}
+
+/* contact-section */
+
+.cs-header h5 {
+    font-size: 25px;
+}
+
+.cs-header h1 {
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.cs-form {
+    background-color: #fff;
+    padding: 50px;
+    margin: auto;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
+}
+
+.csf-email {
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%);
+    font-size:22px;
+    opacity: .6;
+}
+
+.csf-email:focus{
+    border: 1px solid blue;
+    box-shadow: 0px 0px 50px 0px rgb(98 120 223 / 70%);
+}
+
+.csf-button {
+    color: #fff;
+    background-color: #6278df;
+    border-radius: 10px;
+    border: 2px solid #6278df;
+    font-size: 25px;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.csf-button:hover{
+    color: #6278df;
+    background-color: #fff;
+    border: 2px solid #6278df;
+    box-shadow: 0px 0px 20px 0px rgb(98 120 223 / 70%);
+}
+
+.cs-text {
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+/* footer */
+
+.footer p {
+    font-size: 20px;
+}
